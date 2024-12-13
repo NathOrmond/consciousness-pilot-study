@@ -1,28 +1,26 @@
-# Mind Survey Analysis
+# Consciousness Pilot Survey
 
 This repository contains the analysis of survey data exploring philosophical views on consciousness and phenomenal properties. The analysis examines differences between groups with varying levels of philosophical background and their understanding of key concepts in philosophy of mind.
 
 ## Project Structure
 ```
-mind-survey-analysis/
-│
-├── data/                      # Data directory
-│   └── mind_responses.csv     # Survey response data
-│
-├── notebooks/                 # Jupyter notebooks
-│   └── analysis.ipynb        # Main analysis notebook
-│
-├── requirements.txt          # Python package requirements
-├── environment.yml          # Conda environment specification
-└── README.md                # Project documentation
+├── README.md
+├── data
+│   └── consciousness-pilot-study.csv
+├── environment.yml
+├── notebooks
+│   ├── 01_survey-analysis.ipynb
+│   ├── 02_effects.ipynb
+│   └── 03_post-hoc-power-analysis.ipynb
+└── requirements.txt
 ```
 
 ## Setup Instructions
 
 1. Clone this repository:
 ```bash
-git clone [your-repository-url]
-cd mind-survey-analysis
+git clone git@github.com:NathOrmond/consciousness-pilot-study.git
+cd consciousness-pilot-study
 ```
 
 2. Create and activate the conda environment:
@@ -51,8 +49,8 @@ The analysis explores:
 
 ## License
 
-[Your chosen license]
+MIT License
 
 ## Contributing
 
-[Your contribution guidelines]
+If you wish to contribute Fork and open a PR in the ordinary way. Pester me to review and merge if Im sitting on my hands. If you're interested in collaborating or working together on other similar projects in experimental psychology / philosophy then feel free to get in touch! 
