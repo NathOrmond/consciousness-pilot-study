@@ -24,8 +24,18 @@ cd consciousness-pilot-study
 ```
 
 2. Create and activate the conda environment:
+- for Linux 
 ```bash
 conda env create -f environment.yml
+```
+
+- for Mac 
+```bash 
+conda env create -f environment-mac.yml
+```
+
+- then
+```bash
 conda activate mind-survey
 ```
 

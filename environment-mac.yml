@@ -1,0 +1,21 @@
+name: mind-survey
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - jupyter
+  - ipywidgets
+  - plotly
+  - pip
+  - tabulate
+  - pip:
+    - jupyter-contrib-nbextensions
+    - jupyter-nbextensions-configurator
